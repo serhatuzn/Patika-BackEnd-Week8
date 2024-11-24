@@ -18,25 +18,25 @@
 
 # ✨ Özellikler
 ## HomeController:
-#### Index action, Views/Home/Index.cshtml dosyasını döndürür.
+Index action, Views/Home/Index.cshtml dosyasını döndürür.
 ## MVC Mimarisi:
-#### Model: Örnek bir veri modeli (Product) içerir.
+Model: Örnek bir veri modeli (Product) içerir.
 
-#### View: Basit bir Razor View, HTML çıktısını oluşturur.
+View: Basit bir Razor View, HTML çıktısını oluşturur.
 
-#### Controller: İstekleri işler ve veriyle view'leri birleştirir.
+Controller: İstekleri işler ve veriyle view'leri birleştirir.
 
 ## Statik Dosyalar:
-#### wwwroot klasöründeki CSS ve JavaScript dosyaları otomatik olarak sunulur.
+wwwroot klasöründeki CSS ve JavaScript dosyaları otomatik olarak sunulur.
 ## Routing:
 Varsayılan rota: {controller=Home}/{action=Index}/{id?}.
 # 📝 Notlar
-#### 1- Bu proje, öğrenme amacıyla hazırlanmıştır.
+1- Bu proje, öğrenme amacıyla hazırlanmıştır.
 
-#### 2- Elle Yapılan Ayarlar:
+2- Elle Yapılan Ayarlar:
 
-#### 3- Klasör yapısı (Controllers, Models, Views, wwwroot).
+3- Klasör yapısı (Controllers, Models, Views, wwwroot).
 
-#### 4- Örnek dosyalar (HomeController, Razor View).
+4- Örnek dosyalar (HomeController, Razor View).
 
-#### 5- Program.cs içinde routing ve servis ayarları.
+5- Program.cs içinde routing ve servis ayarları.
