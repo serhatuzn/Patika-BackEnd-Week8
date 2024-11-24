@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "Q0wkh5nS70P2uOvpFFzt96eiz44vV56GnFDKHb+fToY=",
+  "Source": "Asp.NetPractice",
+  "BasePath": "_content/Asp.NetPractice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Asp.NetPractice\\wwwroot",
+      "Source": "Asp.NetPractice",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\",
+      "BasePath": "_content/Asp.NetPractice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\24mkgbj1c4-e710dyq4bi.gz",
+      "SourceId": "Asp.NetPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Asp.NetPractice",
+      "RelativePath": "js/site#[.{fingerprint=e710dyq4bi}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\js\\site.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "tc4pzodg28",
+      "Integrity": "s+pjWf4uUwaAIOIsNN0ihCD/xTUcMH9S+nRSmQOWpxQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\3ajm5fye9i-t3qz57z2xa.gz",
+      "SourceId": "Asp.NetPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Asp.NetPractice",
+      "RelativePath": "css/site#[.{fingerprint=t3qz57z2xa}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m6sixp1hal",
+      "Integrity": "0ot77Jb6GNT5Dwc208WvnB8WQSfnUsZFOgOfqQs4oeU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\css\\site.css",
+      "SourceId": "Asp.NetPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\",
+      "BasePath": "_content/Asp.NetPractice",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t3qz57z2xa",
+      "Integrity": "F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\js\\site.js",
+      "SourceId": "Asp.NetPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\",
+      "BasePath": "_content/Asp.NetPractice",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e710dyq4bi",
+      "Integrity": "GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\3ajm5fye9i-t3qz57z2xa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004273504274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ot77Jb6GNT5Dwc208WvnB8WQSfnUsZFOgOfqQs4oeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\3ajm5fye9i-t3qz57z2xa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ot77Jb6GNT5Dwc208WvnB8WQSfnUsZFOgOfqQs4oeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ot77Jb6GNT5Dwc208WvnB8WQSfnUsZFOgOfqQs4oeU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.t3qz57z2xa.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\3ajm5fye9i-t3qz57z2xa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004273504274"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ot77Jb6GNT5Dwc208WvnB8WQSfnUsZFOgOfqQs4oeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t3qz57z2xa"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.t3qz57z2xa.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t3qz57z2xa"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0CXLehnawijET4Fn8SvhLb5OCBXeaaeE69uSsHgnGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.t3qz57z2xa.css.gz",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\3ajm5fye9i-t3qz57z2xa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ot77Jb6GNT5Dwc208WvnB8WQSfnUsZFOgOfqQs4oeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t3qz57z2xa"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ot77Jb6GNT5Dwc208WvnB8WQSfnUsZFOgOfqQs4oeU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.e710dyq4bi.js",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\24mkgbj1c4-e710dyq4bi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005494505495"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+pjWf4uUwaAIOIsNN0ihCD/xTUcMH9S+nRSmQOWpxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e710dyq4bi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.e710dyq4bi.js",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e710dyq4bi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.e710dyq4bi.js.gz",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\24mkgbj1c4-e710dyq4bi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+pjWf4uUwaAIOIsNN0ihCD/xTUcMH9S+nRSmQOWpxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e710dyq4bi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+pjWf4uUwaAIOIsNN0ihCD/xTUcMH9S+nRSmQOWpxQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\24mkgbj1c4-e710dyq4bi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005494505495"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+pjWf4uUwaAIOIsNN0ihCD/xTUcMH9S+nRSmQOWpxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GpvatwKiCfFNVRS2OuhrmA+P+mr9qpdPCNwSMw3ARO0="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Patika BackEnd Week8\\Asp.NetPractice\\obj\\Debug\\net9.0\\compressed\\24mkgbj1c4-e710dyq4bi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+pjWf4uUwaAIOIsNN0ihCD/xTUcMH9S+nRSmQOWpxQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 14:35:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+pjWf4uUwaAIOIsNN0ihCD/xTUcMH9S+nRSmQOWpxQ="
+        }
+      ]
+    }
+  ]
+}
