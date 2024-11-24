@@ -1,0 +1,40 @@
+@model BasicMVCProject.Models.CustomerOrderViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Müşteri Bilgileri</h1>
+    <ul>
+        <li>Müşteri Id : @Model.Customer.Id</li>
+        <li>Müşteri İsim Soyisim : @Model.Customer.FirstName @Model.Customer.LastName</li>
+        <li>Müşteri E-mail : @Model.Customer.Email</li>
+    </ul>
+
+    <h1>Siparişeler</h1>
+    <table border="1">
+        <tr>
+            <th>Sipariş ID</th>
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+            <th>Miktar</th>
+        </tr>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.ProductName</td>
+                <td>@order.Price</td>
+                <td>@order.Quantity</td>
+            </tr>
+        }
+    </table>
+</body>
+
+</html>
