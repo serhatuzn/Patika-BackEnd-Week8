@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Asp.NetPractice",
-    "\\Asp.NetPractice\\wwwroot",
-    "\\Asp.NetPractice\\wwwroot\\lib"
+    "\\BasicMVCProject",
+    "\\BasicMVCProject\\Controllers",
+    "\\BasicMVCProject\\Views"
   ],
-  "SelectedNode": "\\Asp.NetPractice",
+  "SelectedNode": "\\BasicMVCProject\\Views",
   "PreviewInSolutionExplorer": false
 }

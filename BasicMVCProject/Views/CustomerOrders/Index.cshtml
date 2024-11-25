@@ -6,35 +6,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Müşteri Sipariş Bilgileri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .customer-info ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .customer-info li {
+            margin: 8px 0;
+        }
+
+        .order-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .order-table th,
+        .order-table td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .order-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .order-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .order-table tr:hover {
+            background-color: #ddd;
+        }
+
+        .table-container {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Müşteri Bilgileri</h1>
-    <ul>
-        <li>Müşteri Id : @Model.Customer.Id</li>
-        <li>Müşteri İsim Soyisim : @Model.Customer.FirstName @Model.Customer.LastName</li>
-        <li>Müşteri E-mail : @Model.Customer.Email</li>
-    </ul>
+    <div class="container">
+        <h1>Müşteri Bilgileri</h1>
+        <div class="customer-info">
+            <ul>
+                <li><strong>Müşteri Id:</strong> @Model.Customer.Id</li>
+                <li><strong>Müşteri İsim Soyisim:</strong> @Model.Customer.FirstName @Model.Customer.LastName</li>
+                <li><strong>Müşteri E-mail:</strong> @Model.Customer.Email</li>
+            </ul>
+        </div>
 
-    <h1>Siparişeler</h1>
-    <table border="1">
-        <tr>
-            <th>Sipariş ID</th>
-            <th>Ürün Adı</th>
-            <th>Fiyat</th>
-            <th>Miktar</th>
-        </tr>
-        @foreach (var order in Model.Orders)
-        {
-            <tr>
-                <td>@order.OrderId</td>
-                <td>@order.ProductName</td>
-                <td>@order.Price</td>
-                <td>@order.Quantity</td>
-            </tr>
-        }
-    </table>
+        <div class="table-container">
+            <h1>Siparişler</h1>
+            <table class="order-table">
+                <thead>
+                    <tr>
+                        <th>Sipariş ID</th>
+                        <th>Ürün Adı</th>
+                        <th>Fiyat</th>
+                        <th>Miktar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model.Orders)
+                    {
+                        <tr>
+                            <td>@order.OrderId</td>
+                            <td>@order.ProductName</td>
+                            <td>@order.Price</td>
+                            <td>@order.Quantity</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 
 </html>
